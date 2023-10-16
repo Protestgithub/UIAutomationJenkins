@@ -29,7 +29,7 @@ pipeline {
     //The stage directive goes in the stages section and should contain a steps section, an optional agent section, 
     //or other stage-specific directives. Practically speaking, all of the real work done by a Pipeline will be wrapped
     //in one or more stage directives.
-    agent { label 'CD-PVGUI' }
+    agent any
   environment {
         BROWSER = "${params.BROWSER}"
 		PLATFORM = "${params.PLATFORM}"
@@ -46,14 +46,14 @@ pipeline {
         }
         stage('Install Dependencies'){
             steps{
-              sh "export DISPLAY=:99"
-              sh "npm i"
+              bat "export DISPLAY=:99"
+              bat "npm i"
             }
         }
         
         stage('Parallel In Sequential') {
             steps{
-                sh "./node_modules/.bin/cypress run -e TAGS='${PLATFORM}' --env Adminurl=${Adminurl},apiBaseURL=${apiBaseURL} --spec  'cypress/e2e/BDD/Prerequisites/workspaces/Admin/SuperAdmin/CreationofSystemAdmin/*.feature' --browser ${BROWSER}"
+                bat "./node_modules/.bin/cypress run -e TAGS='${PLATFORM}' --env Adminurl=${Adminurl},apiBaseURL=${apiBaseURL}  --browser ${BROWSER}"
 
                 }
 
@@ -66,7 +66,7 @@ pipeline {
             //a useful "escape hatch." script blocks of non-trivial size and/or complexity should be moved into Shared Libraries instead.
          
             publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: 'reports', reportFiles: 'index.html', reportName: 'HTML Report', reportTitles: ''])           // deleteDir()
-              sh "allure generate allure-results"
+              bat "allure generate allure-results"
         }
     }
 }
