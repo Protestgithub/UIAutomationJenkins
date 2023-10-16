@@ -10,7 +10,7 @@ Feature: Creation of System Administrator by Super Administrator
 @Smokeprerequisite
 
     Scenario: TC_01 TC_Smok27 UMS_1974 To verify that user is able to add system admin user
-        Given Create Folder
+        #Given Create Folder
         Given Login into Mobiquity Portal as Super admin Maker
         When Navigate to User Management and click on register
         And Click On System Admin and select Single User
