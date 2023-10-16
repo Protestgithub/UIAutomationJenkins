@@ -8,7 +8,5 @@
     "TransactionId2":"CI220623.1740.A72571",
     "TransactionId3":"PP220620.1242.A72049",
     "initiatedMessage": "Your transaction request has been initiated, and is now pending confirmation",
-    "successmessage":"Transaction Correction approved",
-    "TransactionReject":"Transaction Rejected Successfully",
-    "ErrorTransactionMsg":"Remarks is invalid, should be alphanumeric"
+    "successmessage":"Transaction Correction approved"
 }

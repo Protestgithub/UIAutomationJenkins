@@ -49,10 +49,7 @@
     "errmsg":"unable to create workflow record as same record already under process",
     "rejecterrormessage":"Transaction has been rejected successfully and routed back to initiator",
     "deletemessage":"Service is successfully paused. Kindly contact admin for approval",
-    "walletmsg":"Wallet 34 modification successful. New Wallet Name is set as SCsbv",
-    "ServiceName1":"Commission Disbursement",
-    "ServiceName2":"Withdraw Accrued Commission",
-    "ServiceName3":"Operator Withdraw"
+    "walletmsg":"Wallet 34 modification successful. New Wallet Name is set as SCsbv"
   },
   "modified":{
     "state": "Meghalaya",
@@ -98,9 +95,6 @@
   "userRole3": "AtmMachine",
   "userRole4": "System Admin",
   "userRole5": "Business Admin",
-  "userRole008":"Agent",
-  "userRole7": "Payment Gateway",
-  "userRole0012":"Biller",
   "registrationMode": "Single User",
   "mob70": "7782356712",
   "mob": "7718797551",
@@ -263,7 +257,7 @@
   "HMMarketingProfile":"HMERDefaultMP",
   "MSecurityProfile":"MerchantDefaultSecurityProfile",
   "MAuthProfile":"MerchantDefault Profile",
-  "MReguProfile":"FullKycprofile",
+  "MReguProfile":"NoKycprofile",
   "MMarketingProfile":"MERDefaultMP",
   "ASecurityProfile":"RetailerDefaultSecurityProfile",
   "AAuthProfile":"RetailerDefault Profile",
@@ -280,8 +274,7 @@
   "BillerType":"Adhoc Bill Available",
   "PGMarketingProfile":"PGCATDefaultMP",
   "dob":"1/06/1990",
-  "rejectUser":"Transaction has been rejected successfully and routed back to initiator",
-  "Subscribersuspend": "Receiver has been suspended"
+  "rejectUser":"Transaction has been rejected successfully and routed back to initiator"
 
 
 }

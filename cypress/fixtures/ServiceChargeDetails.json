@@ -13,8 +13,6 @@
     "O2CService":"Automatic O2C",
     "O2CSenderGrade":"Operator",
     "O2CReceiverGrade":"Silver Wholesaler",
-    "O2CPayingEntity":"Wholesaler",
-    "SuspendSuccess":"Service Charge profiles successfully suspended or activated",
-    "DateError":"Applicable date should be greater or equal to current date"
+    "O2CPayingEntity":"Wholesaler"
 
 }

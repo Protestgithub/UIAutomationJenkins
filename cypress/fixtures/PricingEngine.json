@@ -40,18 +40,7 @@
     "WhomeToPayCom":"Service Provider",
     "comsuccess":"Commission Policy has been applied successfully",
     "resumsg":"Result",
-    "taxmsg":"Tax Policy has been applied successfully",
-    "SlabError":"At least one slab is required in slabbed pricing",
-    "SavedDraft":"Service Charge Policy draft has been saved successfully",
-    "DiscardDraft":"There were no policy changes done to save",
-    "SearchCondition":"Searched for conditions:",
-    
-    "WhopaysCommission":"Head Merchant",
-    "SVAtypeCommission":"Commission",
-    "WhomepaysCommission":"Head Merchant",
-    "SVAtypeCom":"Commission",
-    "Senderforcashout":"Customer"
-
+    "taxmsg":"Tax Policy has been applied successfully"
 
 
 

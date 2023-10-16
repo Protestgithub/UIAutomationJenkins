@@ -38,10 +38,5 @@
         "CategoryCode3": "4564",
         "Domainname3": "AtmMachine3925",
         "DomainnameC2C":"C2C"
-},
-"DomainExist":"Domain Name already exists in system",
-"DomainCodeexist":"Domain Code already exists in system",
-  "DomainNameError":"Domain Name field is mandatory",
-"DomainCodeError":"Domain Code field is mandatory"
-
+}
 }

@@ -13,7 +13,7 @@
     "superadmincPwd" : "Com@135"
   },
   "businessAdmin": {
-    "businessadminPwd1": "Com@135",
+    "businessadminPwd1": "Com@13579",
     "DefaultPassword" :"000000",
     "PIN":"1357"
     },
@@ -28,7 +28,7 @@
     "superadminm": {
       "superadminmaker": "superadmin maker"
     },
-"password" : "1357",
+
 "ErrorMessageLogin":"User is suspended",
 "UserCreationSuccessMessage":"Your password has been changed. Please login to continue",
  "PINChangeMessage":"changed",

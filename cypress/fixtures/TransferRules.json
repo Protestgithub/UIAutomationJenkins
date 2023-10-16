@@ -93,20 +93,6 @@
       "ErrorMessage2": "From Payment Innstrument is mandatory",
       "ErrorMessage4": "From Wallet Type is mandatory"
   },
-  "TransferRuleForComm":{
-    "FromDomain":"Merchant",
-    "ToDomain":"Head Merchant",
-    "Payeetype":"Commission",
-    "C2CSuccess":"C2C Transfer Done successfully toTransaction"
-},
-
-
-"MinTransferError":"Please enter correct value in Minimum Transfer Amount",
-"MaxTranferError":"Please enter correct value in Maximum Transfer Amount",
-"TransferamountError":"Please enter correct value in Transfer Amount Multiple Of",
-"TransferRuleDefinerror":"Transfer rule for this service has not been defined",
-
-
     "SuccessMessage": "Transfer Rule is Successfully Add Initiated with ID",
     "ModifyMessage":"Transfer Rule successfully modify initiated with ID",
     "RejectMessage":"Transfer Rule Request is Rejected with Id"

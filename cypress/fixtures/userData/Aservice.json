@@ -1,3 +1,8 @@
 {
-  "ServiceRuleName": " "
+  "ServiceRuleName": "ooYdj",
+  "ServiceChargePercentage": "0.5",
+  "ServiceChargeFixed": "0.8",
+  "CommissionRuleName": "AhrvJ",
+  "CommissionRulePercentage": "0.5",
+  "CommissionRuleFixed": "0.8"
 }
