@@ -1,5 +1,4 @@
-@groovy.transform.BaseScript(parser = groovy.lang.GroovyClassLoader.DEFAULT_PARSER_CLASSES)
-import my.custom.groovy.script.MyCustomGroovyScript
+
 pipeline {
   agent any
 
