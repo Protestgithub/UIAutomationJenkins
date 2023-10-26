@@ -48,11 +48,44 @@ pipeline {
             steps{
               //bat "export DISPLAY=:99"
               bat "npm i --save-dev"
+                              // Install the Cypress parallel and serial execution plugins
+bat npm install cypress-parallel-execution cypress-serial-execution
             }
         }
         
         stage('Parallel In Sequential') {
             steps{
+
+
+// Run the Cypress tests in parallel, but the individual tests within each test spec are executed sequentially
+<?xml version='1.0' encoding='UTF-8'?>
+<project>
+<actions/>
+<description>This job executes Cypress tests in parallel, but the individual tests within each test spec are executed sequentially.</description>
+<keepDependencies>false</keepDependencies>
+<properties/>
+<scm class="hudson.scm.NullSCM"/>
+<canRoam>false</canRoam>
+<disabled>false</disabled>
+<blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+<blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+<triggers/>
+<concurrentBuild>true</concurrentBuild>
+<builders>
+<hudson.tasks.Shell>
+<command>
+npm install cypress-parallel-execution cypress-serial-execution
+</command>
+</hudson.tasks.Shell>
+<hudson.tasks.Shell>
+<command>
+cypress run --parallel --serial --browser chrome
+</command>
+</hudson.tasks.Shell>
+</builders>
+<publishers/>
+</project>
+
                 bat "./node_modules/.bin/cypress run -e TAGS='${PLATFORM}' --env Adminurl=${Adminurl},apiBaseURL=${apiBaseURL}  --browser ${BROWSER}"
 
                 }
