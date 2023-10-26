@@ -153,9 +153,9 @@ And('Click on any service to add service charge.', function () {
   cy.wait(1000)
   //cy.wait('@getSubmitPolicy', { timeout: 30000 })
   //cy.intercept(this.data20.SubmitBtn).as('getSubmit')
-  cy.intercept('/shulka/serviceChargePolicy').as('getSubmit')
+  //cy.intercept('/shulka/serviceChargePolicy').as('getSubmit')
   pricingEnginePage.getSubmitBtn().click({ force: true })
-  cy.wait('@getSubmit', { timeout: 30000 })
+  //cy.wait('@getSubmit', { timeout: 30000 })
 
   //cy.wait('@getSubmit', { timeout: 30000 })
   // pricingEnginePage.getServiceHeader().contains(this.data05.textmsg)

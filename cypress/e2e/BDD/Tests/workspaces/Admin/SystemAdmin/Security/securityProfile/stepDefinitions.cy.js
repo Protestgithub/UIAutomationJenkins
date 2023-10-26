@@ -94,7 +94,7 @@ if (Cypress.env("subscriberNamedAs").includes("Subscriber")) {
     securityProfilePage.getSelectedFilter().click({ force: true });
     securityProfilePage
       .getCheckBox()
-      .eq(21)
+      .eq(2)
       .contains("Subscriber")
       .click();
     securityProfilePage.getApplyFilter().scrollIntoView();
@@ -105,7 +105,7 @@ if (Cypress.env("subscriberNamedAs").includes("Subscriber")) {
     securityProfilePage.getSelectedFilter().click({ force: true });
     securityProfilePage
       .getCheckBox()
-      .eq(21)
+      .eq(2)
       .contains("Customer")
       .click();
     securityProfilePage.getApplyFilter().scrollIntoView();

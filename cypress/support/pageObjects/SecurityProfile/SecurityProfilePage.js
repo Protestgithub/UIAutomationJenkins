@@ -240,6 +240,7 @@ getSelectedFilter() {
     return cy.iframe().find('[class="filterApplied"]');
   }
 
+  
   getRadioButton()
 {
     return cy.iframe().find('.mat-checkbox-inner-container')

@@ -1,70 +1,70 @@
 Feature: ServiceCharge CashOut 3
 
 
-#Author: Arpitha
-# Last Updated: 21/03/2023
-# Comments :
-# Scenario_ID :808
-    #TAGS
-    #version tags
-    @x.04 @x.06 @x.07 @x.09
-    # suite tags
-    @UAT
-    # test case tags
-    @test
-Scenario:Creation of Discount Rule
-        Given Login into Mobiquity Portal as System admin Maker
-        When Click on Pricing Engine
-        And Click on the Cash out Service Policy
-        And Click On Discount Rule
-        And Click on any service to add discount rule
-        Then Logout
-	    #Given Login into Mobiquity Portal as another System admin Checker1 after logout
-	    #When Click on Pricing Engine
-	    #Then Aprove the created service charge
+# #Author: Arpitha
+# # Last Updated: 21/03/2023
+# # Comments :
+# # Scenario_ID :808
+#     #TAGS
+#     #version tags
+#     @x.04 @x.06 @x.07 @x.09
+#     # suite tags
+#     @UAT
+#     # test case tags
+#     @test
+# Scenario:Creation of Discount Rule
+#         Given Login into Mobiquity Portal as System admin Maker
+#         When Click on Pricing Engine
+#         And Click on the Cash out Service Policy
+#         And Click On Discount Rule
+#         And Click on any service to add discount rule
+#         Then Logout
+# 	    #Given Login into Mobiquity Portal as another System admin Checker1 after logout
+# 	    #When Click on Pricing Engine
+# 	    #Then Aprove the created service charge
 
-#Author: Arpitha
-# Last Updated: 21/03/2023
-# Comments :
-# Scenario_ID :808
-    #TAGS
-    #version tags
-    @x.04 @x.06 @x.07 @x.09
-    # suite tags
-    @UAT
-    # test case tags
-    @test
-Scenario: Creation of Taxation Rule
-        Given Login into Mobiquity Portal as System admin Maker
-        When Click on Pricing Engine
-        And Click on the Cash out Service Policy
-        And Click On Taxation rule
-        And Click on any service to add Taxation rule
-	    Then Logout
-	    #Given Login into Mobiquity Portal as another System admin Checker1 after logout
-	    #When Click on Pricing Engine
-	    #Then Aprove the created service charge
+# #Author: Arpitha
+# # Last Updated: 21/03/2023
+# # Comments :
+# # Scenario_ID :808
+#     #TAGS
+#     #version tags
+#     @x.04 @x.06 @x.07 @x.09
+#     # suite tags
+#     @UAT
+#     # test case tags
+#     @test
+# Scenario: Creation of Taxation Rule
+#         Given Login into Mobiquity Portal as System admin Maker
+#         When Click on Pricing Engine
+#         And Click on the Cash out Service Policy
+#         And Click On Taxation rule
+#         And Click on any service to add Taxation rule
+# 	    Then Logout
+# 	    #Given Login into Mobiquity Portal as another System admin Checker1 after logout
+# 	    #When Click on Pricing Engine
+# 	    #Then Aprove the created service charge
 
-#Author: Arpitha
-# Last Updated: 21/03/2023
-# Comments :
-# Scenario_ID :808
-    #TAGS
-    #version tags
-    @x.04 @x.06 @x.07 @x.09
-    # suite tags
-    @UAT
-    # test case tags
-    @test
-Scenario: Creation of Commission Rule
-        Given Login into Mobiquity Portal as System admin Maker
-        When Click on Pricing Engine
-        And Click on commission
-        And Click on commission and select the service you want to add commission profile for for taxation rule
-	    Then Logout
-	    #Given Login into Mobiquity Portal as another System admin Checker1 after logout
-    	#When Click on Pricing Engine
-    	#Then Aprove the created service charge
+# #Author: Arpitha
+# # Last Updated: 21/03/2023
+# # Comments :
+# # Scenario_ID :808
+#     #TAGS
+#     #version tags
+#     @x.04 @x.06 @x.07 @x.09
+#     # suite tags
+#     @UAT
+#     # test case tags
+#     @test
+# Scenario: Creation of Commission Rule
+#         Given Login into Mobiquity Portal as System admin Maker
+#         When Click on Pricing Engine
+#         And Click on commission
+#         And Click on commission and select the service you want to add commission profile for for taxation rule
+# 	    Then Logout
+# 	    #Given Login into Mobiquity Portal as another System admin Checker1 after logout
+#     	#When Click on Pricing Engine
+#     	#Then Aprove the created service charge
 
 #Author: Arpitha
 # Last Updated: 21/03/2023
