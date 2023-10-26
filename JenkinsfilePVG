@@ -1,3 +1,5 @@
+@groovy.transform.BaseScript(parser = groovy.lang.GroovyClassLoader.DEFAULT_PARSER_CLASSES)
+
 pipeline {
     //The agent section specifies where the entire Pipeline, or a specific stage, 
     //will execute in the Jenkins environment depending on where the agent section is placed.
@@ -48,8 +50,7 @@ pipeline {
             steps{
               //bat "export DISPLAY=:99"
               bat "npm i --save-dev"
-                              // Install the Cypress parallel and serial execution plugins
-bat npm install cypress-parallel-execution cypress-serial-execution
+              
             }
         }
         
